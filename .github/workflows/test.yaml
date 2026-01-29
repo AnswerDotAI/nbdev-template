@@ -4,4 +4,4 @@ on:  [workflow_dispatch, pull_request, push]
 jobs:
   test:
     runs-on: ubuntu-latest
-    steps: [uses: answerdotai/workflows/nbdev-ci@master]
+    steps: [uses: answerdotai/workflows/nbdev3-ci@master]
